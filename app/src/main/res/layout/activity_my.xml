@@ -8,27 +8,25 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="200dp"
+        android:layout_height="300dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true">
 
         <Button
             android:layout_width="fill_parent"
-            android:layout_height="200dp"
+            android:layout_height="fill_parent"
             android:text="New Button"
             android:id="@+id/button2"
             android:layout_weight="1"
-            style="@style/button_huge_red"
-            android:layout_marginRight="2dp" />
+            style="@style/button_huge_buttonbar_red" />
 
         <Button
             android:layout_width="fill_parent"
-            android:layout_height="200dp"
+            android:layout_height="fill_parent"
             android:text="New Button"
             android:id="@+id/button3"
             android:layout_weight="1"
-            style="@style/button_huge_green"
-            android:layout_marginLeft="2dp" />
+            style="@style/button_huge_buttonbar_green" />
     </LinearLayout>
 
     <LinearLayout
