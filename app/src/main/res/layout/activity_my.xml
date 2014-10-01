@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MyActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:text="New Button"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            style="@style/button_huge_red"
+            android:layout_marginRight="2dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:text="New Button"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            style="@style/button_huge_green"
+            android:layout_marginLeft="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false"
+        android:gravity="right"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Switch camera"
+            android:id="@+id/button5"
+            style="@style/button_normal_normal"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Hang Up"
+            android:id="@+id/button4"
+            style="@style/button_normal_red" />
+
+        </LinearLayout>
+</RelativeLayout>
